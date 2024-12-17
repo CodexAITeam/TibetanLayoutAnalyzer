@@ -30,6 +30,14 @@ def main(data_path: str):
     # Test the model
     trainer.test(model, test_loader)
 
+    # Plot the confusion matrix for validation
+    model.val_confusion_matrix.plot()
+    plt.show()
+
+    #plot the confusion matrix for test
+    model.test_confusion_matrix.plot()
+    plt.show()
+
 if __name__ == "__main__":
     data_path = "TibetanMNIST/Datasets/TibetanMNIST.npz"  # Replace with your actual data path in npz file format
     main(data_path)
