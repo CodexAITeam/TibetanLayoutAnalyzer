@@ -8,7 +8,7 @@ from torchmetrics.classification import (
     MulticlassF1Score,
     MulticlassCohenKappa,
     MulticlassAUROC,
-    MulticlassConfusionMatrix,
+    MulticlassConfusionMatrix
 )
 
 class SimpleTibetanNumberClassifier(L.LightningModule):
