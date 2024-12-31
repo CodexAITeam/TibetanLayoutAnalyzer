@@ -1,0 +1,45 @@
+{
+    "1789694302": {
+        "3": [
+            {
+                "x": 853,
+                "y": 815,
+                "width": 199,
+                "height": 150,
+                "label": "arabic_numeral"
+            },
+            {
+                "x": 2759,
+                "y": 595,
+                "width": 1914,
+                "height": 221,
+                "label": "tibetan_content"
+            }
+        ],
+        "4": [
+            {
+                "x": 946,
+                "y": 339,
+                "width": 5569,
+                "height": 868,
+                "label": "tibetan_content"
+            }
+        ],
+        "1": [
+            {
+                "x": 3882,
+                "y": 411,
+                "width": 380,
+                "height": 198,
+                "label": "arabic_numeral"
+            },
+            {
+                "x": 3977,
+                "y": 748,
+                "width": 270,
+                "height": 146,
+                "label": "arabic_numeral"
+            }
+        ]
+    }
+}
