@@ -1,0 +1,3 @@
+[submodule "ext/TibetanOCR"]
+	path = ext/TibetanOCR
+	url = https://github.com/CodexAITeam/TibetanOCR
