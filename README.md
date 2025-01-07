@@ -31,10 +31,10 @@ The script supports various command-line arguments to customize the data generat
 After generating the synthetic data, you can train the YOLOv11 object detector: Training of YOLOv11n is done by a CLI call to [Ultralytics](https://docs.ultralytics.com/usage/cli/#train). 
 
 ```bash
-yolo detect train data=data/yolo_tibetan/tibetan_yolo.yml epochs=1000 imgsz=1024
+yolo detect train data=yolo_tibetan/tibetan_yolo.yml epochs=1000 imgsz=1024
 ```
 
-**Note**: You may need to adjust the path field in `tibetan_yolo.yml` to match your directory structure and Ultralytics configuration.
+**Note**: The data path needs to match your system setup. The script `generate_training_data.py` will output the actual data location after generation.
 
 ### Model Export and Inference
 
