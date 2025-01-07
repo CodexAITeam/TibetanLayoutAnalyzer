@@ -1,3 +1,4 @@
 [submodule "ext/TibetanOCR"]
 	path = ext/TibetanOCR
-	url = https://github.com/CodexAITeam/TibetanOCR
+	url = git@github.com:CodexAITeam/TibetanOCR.git
+#	url = https://github.com/CodexAITeam/TibetanOCR
