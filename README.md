@@ -1,6 +1,7 @@
 # TibetanLayoutAnalyzer
 TibetanLayoutAnalyzer is a tool for analyzing and detecting layouts in Tibetan documents. It includes functionality for generating synthetic training data and training an object detector for Tibetan text blocks.
 
+⚠️ This repository is **DEPRECATED**. Please go here: [PechaBridge](https://github.com/CodexAITeam/PechaBridge)
 
 # Training data
 Synthetic training data for Tibetan number detection is generated with `generate_training_data.py` of the `TibetanOCR` submodule. Make sure to update folders for background images.
